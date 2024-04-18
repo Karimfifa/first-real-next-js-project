@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Nav() {
   return (
-    <header class="">
+    <header class="bg-gray-800 ">
   <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
     <Link class="block text-teal-600" href="/">
       <span class="sr-only">About</span>
