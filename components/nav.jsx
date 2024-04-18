@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Nav() {
   return (
-    <header class="bg-white">
+    <header class="">
   <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
     <Link class="block text-teal-600" href="/">
       <span class="sr-only">About</span>
@@ -20,7 +20,7 @@ export default function Nav() {
           </li>
 
           <li>
-            <Link class="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </Link>
+            <Link class="text-gray-500 transition hover:text-gray-500/75" href="career"> Careers </Link>
           </li>
 
          
